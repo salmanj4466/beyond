@@ -1,0 +1,470 @@
+main > section:nth-child(1) {
+  background-color: #081754;
+}
+main > section:nth-child(2) {
+  background-color: #e75145;
+}
+main > section:nth-child(3) {
+  background-color: #b48731;
+}
+main > section:nth-child(4) {
+  background-color: #1742f0;
+}
+
+main > section {
+  padding: 30px;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+/* -----------------------------------------------------
+ for fsvs
+----------------------------------------------------- */
+html.fsvs {
+  height: 100%;
+  width: 100%;
+  /* position: fixed; */
+  /* top: 0;	left: 0; */
+  overflow: hidden;
+}
+html.fsvs #fsvs-body {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+html.fsvs #fsvs-body > * {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+/* -----------------------------------------------------
+ pagenation
+----------------------------------------------------- */
+html.fsvs #fsvs-pagination {
+  width: 32px;
+  height: auto;
+  padding: 8px 4px;
+  margin: 0;
+  position: fixed;
+  right: -100px;
+  top: 50%;
+  z-index: 999;
+}
+html.fsvs #fsvs-pagination li {
+  width: 25px;
+  height: 25px;
+  margin: 0 0 2px 0;
+  line-height: 25px;
+  text-align: center;
+  cursor: pointer;
+}
+html.fsvs #fsvs-pagination li > span {
+  width: 22px;
+  height: 22px;
+  display: block;
+  line-height: 22px;
+  border-radius: 100%;
+  border: 1px solid white;
+}
+html.fsvs #fsvs-pagination li > span > span {
+  width: 12px;
+  height: 12px;
+  margin: 4px;
+  display: block;
+  line-height: 12px;
+  border-radius: 100%;
+  border: 1px solid white;
+}
+html.fsvs #fsvs-pagination li.active > span {
+  border: 1px dashed white;
+}
+html.fsvs #fsvs-pagination li.active > span > span {
+  background: white;
+}
+html.fsvs #fsvs-pagination li:last-child {
+  margin: 0;
+}
+
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+  width: 1em;
+  height: 1em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #fff;
+}
+
+.svg-icon circle {
+  stroke: #fff;
+  stroke-width: 1;
+}
+
+ul {
+  list-style: none;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  /* display: flex ; */
+}
+
+.page {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  p {
+    font-size: 14px;
+  }
+}
+
+.set {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  padding: 20px;
+
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* <style> */
+
+#fsvs-body > * {
+  font-family: Wix Madefor Text;
+}
+/* services-1  */
+#fsvs-body .services-1 h1 {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 80px;
+}
+#fsvs-body .services-1 p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 39px;
+}
+#fsvs-body .services-1 .img-4 {
+  position: relative;
+  bottom: -20px;
+  left: 35px;
+}
+#fsvs-body .services-2 .img-4-2 {
+  position: relative;
+  bottom: 0%;
+  right: 0px;
+  max-width: 130px;
+  padding-right: 10px;
+}
+#fsvs-body .main-heading {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 74px;
+}
+#fsvs-body .mini-heading {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 30px;
+}
+#fsvs-body .main-para {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+/* services 2 */
+#fsvs-body .blue_map_img {
+  margin-left: 250px;
+  max-width: 120px;
+  position: relative;
+}
+#fsvs-body .vector_img {
+  top: -100px;
+  max-width: 120px;
+  margin-left: 80px;
+  position: relative;
+}
+/* services 3 */
+#fsvs-body .vector_r_img {
+	position: relative;
+	max-width:120px; left:50px; top:0px;
+  }
+  #fsvs-body  .circles_img {
+	position: relative;
+	padding-right: 10px;
+	max-width:120px;
+	 left:100px;
+	  top:-60px;
+  }
+  #fsvs-body .white_Arc {
+	position: absolute;
+	padding-right: 10px;
+	max-width:120px; 
+	right:300px;
+	 bottom:0px;
+  }
+  #fsvs-body  .bottom_round {
+	position: absolute;
+	padding-right: 10px;
+	max-width:120px; right:0px; top:0px;
+  }
+  #fsvs-body  .dark_blue_round {
+	position: absolute;
+	padding-right: 10px;
+	max-width:120px; left:50px; bottom:0px;
+  }
+  #fsvs-body  .white_arc_head {
+	position: absolute;
+	max-width: 130px;
+	padding-right: 10px;
+	max-width:190px; right:300px; bottom:0px;
+  }
+  #fsvs-body  .info_r_arc {
+	position: absolute;
+	max-width: 130px;
+	padding-right: 10px;
+	max-width:120px; right:0px; top:0px;
+  }
+@media (min-width: 1200px) {
+  #fsvs-body .container {
+    max-width: 1440px;
+  }
+  /* services-1  */
+  #fsvs-body .services-1 h1 {
+    font-size: 118px;
+    line-height: 120px;
+  }
+  #fsvs-body .services-1 p {
+    font-size: 31px;
+  }
+  #fsvs-body .main-heading {
+    font-size: 80px;
+    line-height: 98px;
+  }
+  #fsvs-body .mini-heading {
+    font-size: 34px;
+    line-height: 50.4px;
+  }
+  #fsvs-body .main-para {
+    font-size: 20px;
+    line-height: 27.72px;
+  }
+  #fsvs-body .main-heading {
+    font-size: 80px;
+    line-height: 90px;
+  }
+  #fsvs-body .mini-heading {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  #fsvs-body .main-para {
+    font-size: 20px;
+    line-height: 22px;
+  }
+}
+@media (min-width: 1440px) {
+  #fsvs-body .container {
+    max-width: 1920px;
+  }
+  /* services-1  */
+  #fsvs-body .services-1 h1 {
+    font-size: 168px;
+    line-height: 150px;
+  }
+  #fsvs-body .services-1 p {
+    font-size: 31px;
+  }
+  #fsvs-body .main-heading {
+    font-size: 100px;
+    line-height: 98px;
+  }
+  #fsvs-body .mini-heading {
+    font-size: 40px;
+    line-height: 50.4px;
+  }
+  #fsvs-body .main-para {
+    font-size: 22px;
+    line-height: 27.72px;
+  }
+}
+
+@media (max-width: 1200px) {
+  #fsvs-body .blue_map_img {
+    margin-left: 0px;
+    max-width: 120px;
+  }
+  
+}
+@media (max-width: 992px) {
+	#fsvs-body .main-heading {
+		font-size: 70px;
+		line-height: 74px;
+		margin-bottom: 40px;
+	}
+	#fsvs-body .mini-heading {
+		font-size: 36px;
+   		line-height: 30px;
+		margin-bottom: 10px;
+	}
+	#fsvs-body .main-para {
+		font-size: 18px;
+		line-height: 20px;
+	}
+  /* services-1  */
+  #fsvs-body .services-1 h1 {
+	  font-size: 70px;
+	}
+	/* services-2  */
+  #fsvs-body .blue_map_img {
+    margin-left: 0px;
+    max-width: 80px;
+	position: absolute;
+	top: -100px;
+  }
+  #fsvs-body .vector_img {
+    top: -100px;
+	right: 0px;
+    max-width: 80px;
+    margin-left: 0px;
+	position: absolute;
+
+  }
+	/* services-3  */
+  #fsvs-body .vector_r_img {
+	position: absolute;
+	max-width:100px; 
+	left:50px; 
+	bottom:-30px;
+  }
+  #fsvs-body .white_Arc {
+	position: relative;
+	padding-right: 10px;
+	max-width:100px; 
+	right:0px;
+	 top:-190px;
+  }
+  #fsvs-body  .white_arc_head {
+	position: absolute;
+	max-width: 100px;
+	padding-right: 10px;
+	max-width:190px; left:0px; top:-120px;
+  }
+}
+@media (max-width: 768px) {
+/* services-3  */
+#fsvs-body .circles_img {
+	position: absolute;
+	max-width:100px; 
+	top:-100px;
+	left: 0px;
+  }
+  #fsvs-body .white_Arc {
+	position: absolute;
+	padding-right: 10px;
+	max-width:100px; 
+	right:300px;
+	 top:-100px;
+  }
+
+  #fsvs-body  .dark_blue_round {
+	max-width:80px; 
+	left:0px;
+	 bottom:-80px;
+  }
+  #fsvs-body  .white_arc_head {
+	max-width:100px;
+  }
+  
+}
+@media (max-width: 576px) {
+  main > section {
+    padding: 10px;
+  }
+  #fsvs-body .main-heading {
+	font-size: 50px;
+	line-height: 54px;
+	margin-bottom: 40px;
+}
+#fsvs-body .mini-heading {
+	font-size: 30px;
+	   line-height: 30px;
+	margin-bottom: 10px;
+}
+#fsvs-body .main-para {
+	font-size: 16px;
+	line-height: 20px;
+}
+  /* services-1  */
+  #fsvs-body .services-1 h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-top: 20px;
+  }
+  #fsvs-body .services-1 p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  #fsvs-body .services-1 .img-4 {
+    position: absolute;
+    bottom: 30%;
+    left: -10px;
+  }
+  #fsvs-body .services-2 .img-4-2 {
+	max-width: 100px;
+ }
+ 	/* services-3  */
+	 #fsvs-body .circles_img {
+		max-width:80px; 
+	 }
+	 #fsvs-body .vector_r_img {
+		position: absolute;
+		max-width:80px; 
+		left:50px; 
+		bottom:-30px;
+	  }
+	  #fsvs-body .white_Arc {
+		position: absolute;
+		padding-right: 10px;
+		max-width:80px; 
+		right:40%;
+		 top:-100px;
+	  }
+	  #fsvs-body  .bottom_round {
+		position: absolute;
+		max-width:80px; 
+		top:-80px;
+	  }
+	  #fsvs-body  .info_r_arc {
+		max-width: 80px;
+		top:-100px;
+	  }
+}
