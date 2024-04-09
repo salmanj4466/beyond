@@ -1,4 +1,3 @@
-
 /*!
 * 	FSVS - Full Screen Vertical Scroller
 * 	https://github.com/lukesnowden/FSVS
